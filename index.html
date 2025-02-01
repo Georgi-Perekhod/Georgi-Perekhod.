@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Георгий Переход</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600&display=swap');
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Playfair Display', serif;
+            background-color: #0d0d0d;
+            color: #fff;
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ff4500;
+            border-bottom: 2px solid #ff4500;
+            padding-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+        .photo {
+            width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .buttons {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .buttons a {
+            display: inline-block;
+            background-color: #ff4500;
+            color: white;
+            padding: 15px 25px;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
+        }
+        .buttons a:hover {
+            background-color: #ff6347;
+        }
+        .language-switcher {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .language-switcher button {
+            background: none;
+            border: 1px solid #ff4500;
+            color: #ff4500;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .language-switcher button:hover {
+            background-color: #ff4500;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-switcher">
+        <button onclick="switchLanguage('ru')">Русский</button>
+        <button onclick="switchLanguage('en')">English</button>
+        <button onclick="switchLanguage('me')">Crnogorski</button>
+    </div>
+
+    <h1>Георгий Переход</h1>
+    
+    <div id="content-ru">
+        <p>Георгий Переход родился 29 апреля 2011 года в Минске, Беларусь. С пяти лет занимается игрой на виолончели.  
+        Учился в 10-й школе имени Евгения Глебова, в настоящее время продолжает обучение в школе "Sava Popović" в Цетине, Черногория, где его учитель — Mladen Popović.  
+        В Беларуси его учителями были Михаил Радунский (Георгий учился у него в Лицее при Консерватории) и Андрей Варламов (Георгий учился у него в 10-й школе).</p>
+        
+        <img src="https://i.postimg.cc/7hfYtfs7/Screenshot-20250201-091150.png" alt="Георгий на сцене" class="photo">
+        
+        <p>С десяти лет активно участвует в конкурсах и музыкальных проектах. Он принимал участие в конкурсах в Черногории, Сербии, Германии, Северной Македонии и Франции.  
+        Особым достижением стало его выступление на Международном фестивале "Полихимния" в Скопье, Северная Македония, где он занял первое место с 100 баллами и был признан лучшим виолончелистом во всех возрастных категориях.</p>
+        
+        <img src="https://i.postimg.cc/Pq5xv3W2/Screenshot-20250201-092613.png" alt="Георгий с виолончелью" class="photo">
+        
+        <p>В апреле 2025 года планируется его сольный концерт в Северной Македонии, где он представит своё произведение.</p>
+
+        <h2>Новости и концерты</h2>
+        <p>• **Апрель 2025** — сольный концерт в Северной Македонии.</p>
+
+        <h2>Подробнее</h2>
+        <p>Как упоминалось ранее, с 10 лет Георгий активно участвует в различных музыкальных проектах. Он играл в оркестрах, работал с композиторами, а также исполнял произведения в трио, дуэтах и квартетах. Георгий стал победителем двух международных конкурсов в Сербии под названием «Zlatne Stepenice», получив 99 и 100 баллов. На конкурсе во Франции «Габриэля Форе» он также занял первое место, получив 97 баллов. В Черногории Георгий принимал участие в двух конкурсах, в обоих случаях занимая первое место: в одном — с 100 баллами, в другом — с 97. В Германии на «I. Grunewald International Competition» он занял 4 место, а в Северной Македонии был признан лучшим виолончелистом всех возрастных категорий, получив 100 баллов.</p>
+        <p>Летом 2024 года Георгий играл в различных камерных ансамблях в рамках музыкального лагеря камерной музыки. Он также участвовал в молодёжном оркестре «Vivim Unicef» в 2023 году. Георгий имеет опыт работы с композиторами и сам пишет произведения.</p>
+    </div>
+
+    <div id="content-en" style="display: none;">
+        <p>Georgi Perekhod was born on April 29, 2011, in Minsk, Belarus. He has been playing the cello since the age of five.  
+        He studied at the 10th School named after Yevgeny Glebov and is currently continuing his studies at the "Sava Popović" school in Cetinje, Montenegro, where his teacher is Mladen Popović.  
+        In Belarus, his teachers were Mikhail Radunsky (Georgi he studied with him at the Lyceum at the Conservatory) and Andrey Varlamov (Georgi he studied with him at the 10th school).</p>
+        
+        <img src="https://i.postimg.cc/7hfYtfs7/Screenshot-20250201-091150.png" alt="Georgi on stage" class="photo">
+        
+        <p>Since the age of ten, he has been actively participating in competitions and musical projects. He has participated in competitions in Montenegro, Serbia, Germany, North Macedonia, and France.  
+        A special achievement was his performance at the "Polihimnia" International Festival in Skopje, North Macedonia, where he took first place with 100 points and was recognized  
+        as the best cellist across all categories.</p>
+        
+        <img src="https://i.postimg.cc/Pq5xv3W2/Screenshot-20250201-092613.png" alt="Georgi with his cello" class="photo">
+        
+        <p>In April 2025, his solo concert is planned in North Macedonia, where he will present his own composition.</p>
+
+        <h2>News & Concerts</h2>
+        <p>• **April 2025** — Solo concert in North Macedonia.</p>
+
+        <h2>More Details</h2>
+        <p>As mentioned earlier, since the age of ten, Georgi has been actively participating in various musical projects. He has played in orchestras, worked with composers, and performed pieces in trios, duets, and quartets. Georgi became the winner of two international competitions in Serbia called "Zlatne Stepenice," receiving 99 and 100 points. At the "Gabriel Fauré" competition in France, he also took first place, receiving 97 points. In Montenegro, Georgi participated in two competitions, taking first place in both: one with 100 points, the other with 97 points. In Germany, at the "I. Grunewald International Competition," he took 4th place, and in North Macedonia, he was recognized as the best cellist across all age categories, receiving 100 points.</p>
+        <p>In the summer of 2024, Georgi performed in various chamber ensembles as part of a chamber music camp. He also participated in the youth orchestra "Vivim Unicef" in 2023. Georgi has experience working with composers and also composes his own works.</p>
+    </div>
+
+    <div id="content-me" style="display: none;">
+        <p>Georgij Perehod je rođen 29. aprila 2011. godine u Minsku, Belorusija. Od svoje pete godine svira violončelo.  
+        Pohađao je 10. školu imenom Evgenije Glebov, a trenutno nastavlja školovanje u školi "Sava Popović" u Cetinju, Crna Gora, gde mu je učitelj Mladen Popović.  
+        U Belorusiji su mu učitelji bili Mihail Radunski (Georgij učio je kod njega u Liceju pri Konzervatoriji) i Andrej Varlamov (Georgij učio je kod njega u 10. školi).</p>
+        
+        <img src="https://i.postimg.cc/7hfYtfs7/Screenshot-20250201-091150.png" alt="Georgij na sceni" class="photo">
+        
+        <p>Od desete godine aktivno učestvuje u takmičenjima i muzičkim projektima. Učestvovao je na takmičenjima u Crnoj Gori, Srbiji, Nemačkoj, Severnoj Makedoniji i Francuskoj.  
+        Posebno postignuće bilo je njegovo učešće na Međunarodnom festivalu "Polihimnia" u Skoplju, Severna Makedonija, gde je osvojio prvo mesto sa 100 bodova i bio proglašen najboljim čelisom u svim kategorijama.</p>
+        
+        <img src="https://i.postimg.cc/Pq5xv3W2/Screenshot-20250201-092613.png" alt="Georgij sa violončelom" class="photo">
+        
+        <p>U aprilu 2025. godine planiran je njegov solo koncert u Severnoj Makedoniji, gde će predstaviti svoje delo.</p>
+
+        <h2>Novosti i koncerti</h2>
+        <p>• **April 2025** — solo koncert u Severnoj Makedoniji.</p>
+
+        <h2>Više detalja</h2>
+        <p>Kako je ranije pomenuto, od desete godine Georgij aktivno učestvuje u različitim muzičkim projektima. Svirao je u orkestrima, radio sa kompozitorima i izvodio dela u triovima, duetima i kvartetima. Georgij je postao pobednik dva međunarodna takmičenja u Srbiji pod nazivom "Zlatne Stepenice", osvojivši 99 i 100 bodova. Na takmičenju u Francuskoj "Gabriel Fauré" takođe je zauzeo prvo mesto sa 97 bodova. U Crnoj Gori Georgij je učestvovao na dva takmičenja, na oba je osvojio prvo mesto: jedno sa 100 bodova, drugo sa 97 bodova. U Nemačkoj je na "I. Grunewald International Competition" zauzeo 4. mesto, a u Severnoj Makedoniji je proglašen najboljim čelisom svih uzrasnih kategorija sa 100 bodova.</p>
+        <p>Tokom leta 2024. Georgij je svirao u različitim kamernim ansamblima u okviru muzičkog kampa kamerne muzike. Takođe je učestvovao u omladinskom orkestru "Vivim Unicef" 2023. godine. Georgij ima iskustva u radu sa kompozitorima i sam komponuje svoja dela.</p>
+    </div>
+
+    <div class="buttons">
+        <a href="https://x.com/georgicello" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/georgi_perekhod" target="_blank">Instagram</a>
+        <a href="https://soundcloud.com/georgij-perexod" target="_blank">SoundCloud</a>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            document.getElementById('content-ru').style.display = (lang === 'ru') ? 'block' : 'none';
+            document.getElementById('content-en').style.display = (lang === 'en') ? 'block' : 'none';
+            document.getElementById('content-me').style.display = (lang === 'me') ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
